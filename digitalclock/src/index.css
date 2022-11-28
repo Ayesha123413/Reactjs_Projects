@@ -1,0 +1,14 @@
+body {
+background-color: #1a1a1a;
+ display: flex;
+justify-content: center;
+align-items: center;
+
+}
+h1 {
+color: #16cc86;
+font-family: 'Times New Roman';
+margin-top: 240px;
+font-size: 100px;
+ 
+ }
