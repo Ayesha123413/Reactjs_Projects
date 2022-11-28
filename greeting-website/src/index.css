@@ -1,0 +1,22 @@
+body {
+ background-color: antiquewhite;
+ box-sizing: border-box;
+ font-family: "josefin Sans","sans-serif";
+ font-size: larger;
+}
+div{
+ width: 100%;
+ height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -30px;
+
+ }
+ h1{
+background-color: turquoise;
+color: lightseagreen;
+padding: 40px;
+border-radius: 10px;
+
+ }
