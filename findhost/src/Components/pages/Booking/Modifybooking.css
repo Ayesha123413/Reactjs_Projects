@@ -1,0 +1,146 @@
+.MB_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 65%;
+  height: 95%;
+  border-radius: 10px;
+  padding: 10px;
+}
+.MD_left {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.MD_left > img {
+  height: 200px;
+}
+.MD_left > div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.MD_left > div > h4 {
+  color: #6e47ff;
+}
+p {
+  color: #828282;
+}
+p > span {
+  color: black;
+  font-weight: bold;
+}
+.MD_check_section > div {
+  display: flex;
+  justify-content: space-around;
+  width: 140px;
+  height: 90px;
+}
+.checkout > h3,
+.checkin > h3 {
+  font-size: 17px;
+  font-weight: 500;
+}
+.MD_bottom_left {
+  background-color: #efedfa;
+  border-radius: 5px;
+  margin-top: 7px;
+  padding: 7px 10px 7px 10px;
+  align-items: center;
+}
+
+.MD_bottom_left > p {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+.MD_bottom_left > h3 {
+  color: #3523c3;
+}
+.vl {
+  border-left: 1px solid rgb(164, 163, 163);
+  height: 100%;
+}
+.MD_right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.MD_right > p {
+  padding-top: 6px;
+  font-size: 12px;
+}
+.MD_horizontalline {
+  margin: 15px 0 15px 0;
+  width: 340px;
+  color: black;
+  height: 1px;
+}
+.MD_rigth_sub1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.MD_rigth_sub1 > div {
+  display: flex;
+  align-items: center;
+}
+.MD_rigth_sub1 > div > img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.MD_rigth_sub1 > div {
+  font-size: 12px;
+}
+
+.MD_right_icon {
+  display: flex;
+  width: 70px;
+  justify-content: space-around;
+  align-items: center;
+}
+.MD_right_sub2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 0 5px 0 5px;
+}
+.MD_right_sub2 > div > p {
+  color: #42ad0f;
+}
+.counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  border: 1px solid rgb(209, 209, 209);
+  padding: 2px;
+}
+.counter > button {
+  width: 32px;
+  height: 32px;
+  background-color: #ebe9f9;
+  color: #3523c3;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
+.MD_Done {
+  border: #180344 1px solid;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: #180344;
+  color: white;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.MD_Done:hover {
+  background-color: transparent;
+  color: #180344;
+}

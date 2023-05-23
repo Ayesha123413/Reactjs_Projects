@@ -1,0 +1,83 @@
+.Dashboard {
+  width: 100%;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+.DB_first {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+  padding: 0 30px 0 30px;
+}
+.DB_sub_first {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.DB_first_icons {
+  display: flex;
+  align-items: center;
+  margin-left: 900px;
+}
+.DB_second {
+  height: calc(100% - 70px);
+  display: flex;
+  overflow: hidden;
+}
+.side_bar > div {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-top: 35px;
+}
+.sidebar-bottom {
+  margin-top: 100px;
+}
+.link {
+  padding: 8px;
+  width: 230px;
+  color: #00035f;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.link:hover {
+  background-color: lightblue;
+  color: #00024c;
+  border-radius: 5px;
+}
+.active {
+  background-color: lightblue;
+  color: #00024c;
+  border-radius: 5px;
+}
+.DB_page {
+  width: 80%;
+  height: calc(100%-12px);
+  padding: 6px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.DB_page_Top {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.DB_page_Top > button {
+  margin-left: 700px;
+  height: 40px;
+}
+.DB_page_bottom {
+  width: calc(100% - 20px);
+  height: calc(100% - 80px);
+  padding: 10px;
+  background-color: #f7f6f9;
+  border-radius: 10px;
+}

@@ -1,0 +1,74 @@
+.House_container {
+  width: 35%;
+
+  height: 100%;
+  overflow: auto;
+}
+.House_card {
+  width: 93.5%;
+  display: flex;
+  height: 100px;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.House_card > img {
+  width: 45%;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+.card_content {
+  width: 53%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.card_top,
+.card_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.card_top > h2 {
+  color: #6e47ff;
+  font-size: 16px;
+}
+
+.card_top > p {
+  width: 60px;
+  font-size: 10px;
+  color: #0ba778;
+  background-color: #2ce3ac;
+  padding: 2px;
+  border-radius: 3px;
+  text-align: center;
+}
+.card_content > h3 {
+  font-size: 15px;
+  color: black;
+}
+.card_content > p {
+  font-size: 14px;
+  color: gray;
+}
+.card_content > hr {
+  width: 100%;
+  color: gray;
+}
+
+.card_bottom > p {
+  font-size: 14px;
+  color: gray;
+}
+.card_bottom > p > span {
+  font-size: 14px;
+  color: 14px;
+  font-weight: 500;
+}

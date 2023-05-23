@@ -1,0 +1,81 @@
+.chating_container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 0 7px 0 7px;
+}
+
+.chating_top {
+  display: flex;
+  height: 10%;
+  justify-content: space-between;
+  padding: 10px;
+}
+.chating_top_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chating_top_right > img {
+  width: 50px;
+  height: 50px;
+}
+.chating_top_right > div {
+  margin-left: 10px;
+}
+.chating_top_right > div > h3 {
+  font-size: 16px;
+}
+.chating_top_right > div > p {
+  font-size: 12px;
+  font-weight: light;
+}
+.chating_top_left {
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+.chating_line {
+  width: 515px;
+}
+.chating_middle {
+  overflow: hidden;
+  padding: 10px;
+  height: 70%;
+}
+.Chating_bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.chating_sub_bottom {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.chating_input {
+  margin: 20px 0 10px 0;
+
+  padding: 10px 200px 10px 10px;
+  margin-right: 10px;
+  color: rgba(117, 116, 116, 0.588);
+  border: transparent;
+  text-decoration: none;
+}
+
+.chatting_bottom_icon {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

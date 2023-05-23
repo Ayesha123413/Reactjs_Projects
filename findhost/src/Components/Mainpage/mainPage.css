@@ -1,0 +1,58 @@
+.mainpage_container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mpfirst {
+  font-size: 30px;
+  color: #00024c;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.mpfirst > h1 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+  height: 100px;
+}
+
+.mpfirst > img {
+  height: calc(100% - 100px);
+  padding-right: 50px;
+  overflow: hidden;
+}
+.mpsecond {
+  width: 30%;
+  background-color: #00024c;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 30px;
+  line-height: 25px;
+}
+.mp_buttons {
+  width: 100px;
+  margin-left: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 12px;
+}
+.mp_buttons > button {
+  padding: 10px 30px;
+  color: white;
+  background-color: transparent;
+  border: white 2px solid;
+  border-radius: 5px;
+}
+
+.mp_buttons > button:hover {
+  background-color: white;
+  border: #00024c 2px solid;
+  color: #00024c;
+}

@@ -1,0 +1,103 @@
+.Market_left {
+  width: 69%;
+  background-color: rgb(255, 255, 255);
+  padding: 7px;
+  border-radius: 7px;
+  margin-right: 3px;
+}
+.Market_top_left {
+  display: flex;
+  justify-content: left;
+}
+.Discover {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.Discover > img {
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+}
+.Category {
+  width: 50%;
+}
+.Category_images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.category {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(107, 107, 107);
+  border-radius: 5px;
+  padding: 20px;
+}
+.image {
+  width: 30px;
+  height: 30px;
+}
+.Market_bottom_left {
+  width: 100%;
+  overflow: hidden;
+}
+.Market_bottom_left > h2 {
+  font-size: 22px;
+  padding: 3px 0 3px 0;
+}
+.MB_Card_Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  padding: 8px;
+  display: flex;
+
+  flex-direction: column;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  border: 1px solid rgb(187, 187, 187);
+  margin-bottom: 10px;
+}
+.card > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card > img {
+  border-radius: 5px;
+  width: 200px;
+  height: 80px;
+  margin-right: 2px;
+}
+.card > div > h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25px;
+  color: #ecae29;
+  background-color: #f5f4f9;
+  padding: 0 5px 0 5px;
+  font-size: 10px;
+  border-radius: 10px;
+}
+.ML_horizaontalline {
+  width: 200px;
+  color: black;
+  height: 1px;
+}
+.price {
+  color: blue;
+}

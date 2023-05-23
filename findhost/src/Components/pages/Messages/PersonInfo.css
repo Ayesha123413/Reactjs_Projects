@@ -1,0 +1,93 @@
+.PersonInfo_container {
+  width: 25%;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+}
+.PI_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 18px;
+  height: 65%;
+}
+.PI_top > img {
+  border-radius: 30px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 10px gray;
+}
+.PI_top > h5 {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.PI_top > p {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+  padding: 0 16px 0 16px;
+}
+.PI_icons {
+  margin-top: 10px;
+  width: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.PI_middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px 10px 5px;
+}
+
+.PI_middle_line {
+  width: 250px;
+}
+.PI_sub_middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25px;
+  color: #ecae29;
+  background-color: #f5f4f9;
+  padding: 0 5px 0 5px;
+  font-size: 10px;
+  border-radius: 10px;
+}
+.middle_rating {
+  display: flex;
+}
+.PI_sub2_middle {
+  color: #ecae29;
+}
+.PI_bottom {
+  overflow: hidden;
+}
+.PI_sub_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.PI_sub_bottom > h3 {
+  font-size: 14px;
+  color: gray;
+  font-weight: 400;
+}
+.PI_sub_bottom > a {
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.PI_bottom_Imgs {
+  display: flex;
+  justify-content: space-between;
+}
+.PI_bottom_Imgs > img {
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+}

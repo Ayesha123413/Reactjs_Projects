@@ -1,0 +1,42 @@
+.NB_container {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: white;
+  background-color: #f7f6f9;
+  margin-right: 20px;
+}
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  border-radius: 10px;
+  margin: 4px;
+}
+.notification > img {
+  width: 50px;
+  height: 50px;
+  margin: 30px;
+}
+.notification > p {
+  font-size: 16px;
+}
+.notification > h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.notification:nth-child(1) {
+  background-color: #33c587;
+}
+.notification:nth-child(2) {
+  background-color: #739aff;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.notification:nth-child(3) {
+  background-color: #fda25f;
+}
