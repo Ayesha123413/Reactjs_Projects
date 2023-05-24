@@ -1,0 +1,39 @@
+.social_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: 18rem;
+}
+.icon-content {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: rgb(214, 214, 6);
+}
+.icons {
+  color: rgb(214, 214, 6);
+  font-size: 4rem;
+}
+.icons_Link {
+  color: rgb(214, 214, 6);
+}
+.icons_Link :hover {
+  color: whitesmoke;
+}
+.icons:hover {
+  color: whitesmoke;
+}
+@media (max-width: 998px) {
+  .social_container {
+    height: 10rem;
+  }
+  .icons {
+    font-size: 3rem;
+  }
+}
