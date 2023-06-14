@@ -1,0 +1,16 @@
+.search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(181, 174, 174);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 2rem;
+}
+input {
+  border: none;
+  outline: none;
+  background-color: rgb(181, 174, 174);
+  color: #f3e8cc;
+  margin-left: 10px;
+  width: 100%;
+}
