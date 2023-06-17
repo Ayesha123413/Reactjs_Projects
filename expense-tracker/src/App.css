@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 55%;
+  margin: auto;
+}
+hr {
+  border: 0.5px solid gray;
+  width: 100%;
+  height: 0;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 5px;
+  color: white;
+}
+h4 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 998px) {
+  .App {
+    width: 100%;
+  }
+  h4 {
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}

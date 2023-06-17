@@ -1,0 +1,17 @@
+.balance-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 60%;
+  line-height: 10px;
+  color: white;
+}
+.balance-container > :nth-child(1) {
+  margin: 0;
+}
+@media screen and (max-width: 998px) {
+  .balance-container {
+    width: 80%;
+  }
+}

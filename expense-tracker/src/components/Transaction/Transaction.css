@@ -1,0 +1,53 @@
+.trasaction-container {
+  width: 60%;
+}
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.list li {
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 5px rgb(169, 169, 169);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+  position: relative;
+}
+.minus {
+  border-right: 5px solid red;
+}
+.plus {
+  border-right: 5px solid green;
+}
+.delete-btn {
+  cursor: pointer;
+  position: absolute;
+  left: -1.5rem;
+  background-color: #e74c3c;
+  border: none;
+  padding: 5px 9px;
+  color: white;
+  bottom: 8px;
+  opacity: 0;
+}
+.list li:hover .delete-btn {
+  opacity: 1;
+}
+@media screen and (max-width: 998px) {
+  .trasaction-container {
+    width: 80%;
+  }
+  .delete-btn {
+    cursor: pointer;
+    position: absolute;
+    left: -1rem;
+    background-color: #e74c3c;
+    border: none;
+    padding: 2px 5px;
+    color: white;
+    bottom: 10px;
+  }
+}

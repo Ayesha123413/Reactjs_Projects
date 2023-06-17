@@ -2,10 +2,23 @@ Gymnist
 
 https://gymnistbyayesha.pages.dev/
 
+package: nanoid,emailjs
+function: user canke infromation abt gym, and contact for reg
+isteration through email functionality of web.
 ===================================
 
 notify
 
 https://notifynotesbyayesha.pages.dev/
 
+package: nanoid, 
+func:add notes, delete noted save witt dates not, search any note through text
+
 ====================================
+
+expense tracker
+
+https://expensetrackerbyayesha.pages.dev/
+
+majors: contextAPI,usecontext , usereducer hooks  
+func: calculate and manage income expenses.

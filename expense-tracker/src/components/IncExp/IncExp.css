@@ -1,0 +1,37 @@
+.Inc-exp-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 5px;
+  width: 60%;
+  line-height: 10px;
+  box-shadow: 3px 3px 5px rgb(169, 169, 169);
+}
+.Inc-exp-container > div {
+  flex: 1;
+  text-align: center;
+}
+.incexp-hr {
+  border: 1px solid green;
+  width: 0;
+  border-radius: 50px;
+  height: 5rem;
+}
+.Inc-exp-container > :nth-of-type(1) {
+  color: rgb(55, 194, 0);
+}
+.Inc-exp-container > :nth-of-type(2) {
+  color: rgb(230, 0, 0);
+}
+@media screen and (max-width: 998px) {
+  .Inc-exp-container {
+    padding: 5px;
+    width: 80%;
+    line-height: 5px;
+    box-shadow: 3px 3px 5px rgb(169, 169, 169);
+  }
+  .incexp-hr {
+    height: 3rem;
+  }
+}
